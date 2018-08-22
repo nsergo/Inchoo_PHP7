@@ -17,12 +17,12 @@
         "magento-hackathon/magento-composer-installer": "*"
     },
     "suggest": {
-        "phpseclib/mcrypt_compat": "PHP 7.1 polyfill for the mcrypt extension from PHP <= 7.0."
+        "phpseclib/mcrypt_compat": "PHP 5.x/7.x polyfill for mcrypt extension"
     },
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packages.firegento.com"
+            "url": "https://packages.firegento.com"
         }
     ]
 }
